@@ -159,7 +159,7 @@ h2 {
 }
 
 .row-error {
-	background-image: url(../images/e.png);background-repeat: no-repeat;
+	background-image: url(../images/error.png);background-repeat: no-repeat;
 	background-color: #fcc;
 	font-size: 11px;
 	margin: 0;
