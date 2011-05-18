@@ -142,6 +142,7 @@ h2 {
 	
 .row-in {
 	background-image: url(../images/in.png);background-repeat: no-repeat;
+	background-color: #ccf;
 	font-size: 11px;
 	margin: 0;
 	padding-left: 20px;
@@ -150,6 +151,16 @@ h2 {
 
 .row-out {
 	background-image: url(../images/out.png);background-repeat: no-repeat;
+	background-color: #cfc;
+	font-size: 11px;
+	margin: 0;
+	padding-left: 20px;
+	line-height: 1.2em;
+}
+
+.row-error {
+	background-image: url(../images/e.png);background-repeat: no-repeat;
+	background-color: #fcc;
 	font-size: 11px;
 	margin: 0;
 	padding-left: 20px;

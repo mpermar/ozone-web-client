@@ -2,7 +2,7 @@ package com.voxeo.ozone.web.client;
 
 public class Message {
 
-	public enum Type { IN, OUT };
+	public enum Type { IN, OUT, ERROR };
 	
 	public Message(String message, Type type) {
 		

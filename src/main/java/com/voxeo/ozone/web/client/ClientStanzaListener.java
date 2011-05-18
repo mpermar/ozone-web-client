@@ -41,7 +41,7 @@ public class ClientStanzaListener extends StanzaAdapter {
 	@Override
 	public void onError(Error error) {
 
-		MessagesQueue.publish(new Message(generateMessage(error.toString()), Message.Type.IN));
+		MessagesQueue.publish(new Message(generateMessage(error.toString()), Message.Type.ERROR));
 	}
 	
 	@Override

@@ -41,8 +41,10 @@ public class IQProcessor {
 							buf.append("<div class=\"row");
 							if (message.getType() == Message.Type.IN) {
 								buf.append("-in\">");
-							} else {
+							} else if (message.getType() == Message.Type.OUT) {
 								buf.append("-out\">");				
+							} else if (message.getType() == Message.Type.ERROR) {
+								buf.append("-error\">");
 							}
 								
 							buf.append(message.getMessage());
