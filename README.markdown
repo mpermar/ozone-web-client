@@ -2,7 +2,7 @@
 
 The Ozone Web Client is a web application that lets you run Ozone commands from your browser. It is built upon the [Ozone Java Client](https://github.com/tropo/tropo2/tree/master/ozone-java-client) library so you can run any of the API interfaces exposed by this library but additionally as it is based on Groovy you will be able to create your own Groovy scripts to create more complex applications and test cases. The following sections show some examples.
 
-![Ozone Web Client](https://github.com/mpermar/ozone-web-client/blob/master/images/dashboard.png)
+![Ozone Web Client](https://github.com/mpermar/ozone-web-client/blob/master/images/dashboard.png?raw=true)
 
 ## Building from the source
 
