@@ -30,7 +30,7 @@ Finally, start your Prism instance. You should be able to see the Ozone Web Clie
 
 ## Screencast
 
-I have published a Screencast to Vimeo that shows how to build, install and use the Ozone Web Client. [Check it our here](http://www.vimeo.com/23868385). 
+I have published a Screencast to Vimeo that shows how to build, install and use the Ozone Web Client. [Check it our here](http://www.vimeo.com/23868385) (pwd. thisisozone)
 
 ## Basic commands
 
