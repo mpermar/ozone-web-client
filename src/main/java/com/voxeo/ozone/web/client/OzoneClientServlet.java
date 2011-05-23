@@ -96,6 +96,8 @@ public class OzoneClientServlet extends HttpServlet {
 				line.startsWith("ask") ||
 				line.startsWith("conference") ||
 				line.startsWith("hangup") ||
+				line.startsWith("reject") ||
+				line.startsWith("accept") ||
 				line.startsWith("dial")) {
 				line = "def result = client." + line.trim();
 			} else {
