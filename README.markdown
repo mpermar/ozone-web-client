@@ -8,6 +8,8 @@ The Ozone Web Client is a web application that lets you run Ozone commands from 
 
 To build the Ozone Web Client you first need to download the source code from Github:
 
+**NOTE: To build this Ozone Web Client you will need build Ozone first**. If you just want to play around with the webapp you can just download the WAR file [from here](https://github.com/mpermar/ozone-web-client/tree/master/dist).
+
 	git clone git@github.com:mpermar/ozone-web-client.git
 	
 And then go into the ozone-web-client folder and use [Apache Maven](http://maven.apache.org) to install:
